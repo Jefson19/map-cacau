@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @organization.nome %>
+</p>
+
+<p>
+  <strong>Social:</strong>
+  <%= @organization.social %>
+</p>
+
+<p>
+  <strong>Cnpj:</strong>
+  <%= @organization.cnpj %>
+</p>
+
+<p>
+  <strong>Tel:</strong>
+  <%= @organization.tel %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @organization.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @organization.longitude %>
+</p>
+
+<%= link_to 'Edit', edit_organization_path(@organization) %> |
+<%= link_to 'Back', organizations_path %>
